@@ -1,0 +1,86 @@
+{
+  "title": "When Seoul Was Built",
+  "tile_zoom": 15,
+  "bounds": {
+    "min_lon": 126.76,
+    "min_lat": 37.43,
+    "max_lon": 127.19,
+    "max_lat": 37.7
+  },
+  "tile_count_total": 1312,
+  "bucket_count": 4,
+  "total_feature_count": 747095,
+  "outputs": [
+    {
+      "source_key": "final-gz-2345",
+      "tile_zoom": 15,
+      "tile_count_requested": 1312,
+      "tile_count_fetched": 1312,
+      "tile_count_failed": 0,
+      "raw_feature_count": 13764,
+      "deduped_feature_count": 13272,
+      "failed_tiles": [],
+      "age_band_counts": {
+        "pre_1960": 13197,
+        "unknown": 75
+      },
+      "approved_year_min": 1858,
+      "approved_year_max": 1959,
+      "output_path": "data_processed/age_layers/final-gz-2345.parquet"
+    },
+    {
+      "source_key": "final-gz-678",
+      "tile_zoom": 15,
+      "tile_count_requested": 1312,
+      "tile_count_fetched": 1312,
+      "tile_count_failed": 0,
+      "raw_feature_count": 265879,
+      "deduped_feature_count": 259018,
+      "failed_tiles": [],
+      "age_band_counts": {
+        "unknown": 372,
+        "y1960s": 37658,
+        "y1970s": 90216,
+        "y1980s": 130772
+      },
+      "approved_year_min": 1960,
+      "approved_year_max": 1989,
+      "output_path": "data_processed/age_layers/final-gz-678.parquet"
+    },
+    {
+      "source_key": "final-gz-901",
+      "tile_zoom": 15,
+      "tile_count_requested": 1312,
+      "tile_count_fetched": 1312,
+      "tile_count_failed": 0,
+      "raw_feature_count": 332158,
+      "deduped_feature_count": 324400,
+      "failed_tiles": [],
+      "age_band_counts": {
+        "unknown": 64,
+        "y1990s": 199215,
+        "y2000s": 91350,
+        "y2010_plus": 33771
+      },
+      "approved_year_min": 1990,
+      "approved_year_max": 2016,
+      "output_path": "data_processed/age_layers/final-gz-901.parquet"
+    },
+    {
+      "source_key": "final-buildings-null",
+      "tile_zoom": 15,
+      "tile_count_requested": 1312,
+      "tile_count_fetched": 1312,
+      "tile_count_failed": 0,
+      "raw_feature_count": 150739,
+      "deduped_feature_count": 150405,
+      "failed_tiles": [],
+      "age_band_counts": {
+        "unknown": 150405
+      },
+      "approved_year_min": null,
+      "approved_year_max": null,
+      "output_path": "data_processed/age_layers/final-buildings-null.parquet"
+    }
+  ]
+}
