@@ -1,0 +1,17 @@
+[project]
+name = "when-seoul-was-built"
+version = "0.1.0"
+description = "Analysis-first repository for a static cartographic study of Seoul building ages."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "pyarrow>=16.0",
+]
+
+[project.optional-dependencies]
+mapping = [
+  "geopandas>=1.0",
+  "matplotlib>=3.8",
+  "shapely>=2.0",
+]
