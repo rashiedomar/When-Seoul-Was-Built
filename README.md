@@ -1,7 +1,7 @@
 # When Seoul Was Built
 
 <p align="center">
-  <img src="outputs/when-seoul-was-built-preview.svg" alt="When Seoul Was Built" width="680">
+  <img src="outputs/when-seoul-was-built-preview.svg" alt="When Seoul Was Built" width="420">
 </p>
 
 `When Seoul Was Built` is a fun project that turns Seoul's building approval records into a dense static map of urban age.
