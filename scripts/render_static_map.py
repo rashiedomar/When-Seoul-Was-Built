@@ -180,14 +180,14 @@ def render_map(repo_root: Path) -> Path:
     plt.close(fig)
 
     with Image.open(png_path) as image:
-        preview_width = 450
+        preview_width = 900
         preview_height = round(image.height * (preview_width / image.width))
         preview_image = image.convert("RGB").resize(
             (preview_width, preview_height),
             Image.Resampling.LANCZOS,
         )
         jpeg_path = outputs_dir / "when-seoul-was-built-preview.jpg"
-        preview_image.save(jpeg_path, format="JPEG", quality=62, optimize=True)
+        preview_image.save(jpeg_path, format="JPEG", quality=72, optimize=True)
 
     preview_image = mpimg.imread(jpeg_path)
     height_px, width_px = preview_image.shape[:2]
