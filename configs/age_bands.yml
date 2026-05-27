@@ -1,0 +1,45 @@
+title: When Seoul Was Built
+status: draft
+description: Tentative construction-era bins for the final static map.
+
+bands:
+  - id: pre_1960
+    label: Before 1960
+    year_min: null
+    year_max: 1959
+    color: "#c7772f"
+  - id: y1960s
+    label: 1960-1969
+    year_min: 1960
+    year_max: 1969
+    color: "#d58b3c"
+  - id: y1970s
+    label: 1970-1979
+    year_min: 1970
+    year_max: 1979
+    color: "#e1b35b"
+  - id: y1980s
+    label: 1980-1989
+    year_min: 1980
+    year_max: 1989
+    color: "#d7d98b"
+  - id: y1990s
+    label: 1990-1999
+    year_min: 1990
+    year_max: 1999
+    color: "#89c6c3"
+  - id: y2000s
+    label: 2000-2009
+    year_min: 2000
+    year_max: 2009
+    color: "#5b94d6"
+  - id: y2010_plus
+    label: 2010-present
+    year_min: 2010
+    year_max: null
+    color: "#28479a"
+  - id: unknown
+    label: Unknown year
+    year_min: null
+    year_max: null
+    color: "#d8dfff"
